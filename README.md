@@ -18,7 +18,7 @@ The algorithm to use pavr.py to successfully to flash an AVR uc are:
 These steps required to use pavr.py are explained below with the help of an example.
 
 EXAMPLE 
-Suppose you have directory names "irsensor" in which you have the following files  
+Suppose you have directory named "irsensor" in which you have the following files  
 &nbsp;&nbsp;&nbsp;1. main.c  
 &nbsp;&nbsp;&nbsp;2. USART.c  
 &nbsp;&nbsp;&nbsp;3. USART.h  
