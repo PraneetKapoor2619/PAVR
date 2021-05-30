@@ -75,7 +75,7 @@ def invalid_exit(string):
 def file_extr(fn):
 	global files, filenames
 	if(fn == "all"):
-		files = check_output(['dir']).decode("utf-8")	
+		files = check_output(['dir'], shell = True).decode("utf-8")	
 	output = re.findall("[^\n\t\r ]+", files)
 	files = ''
 	for fname in output:
